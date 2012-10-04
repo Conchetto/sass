@@ -1,0 +1,10 @@
+@mixin corner($radius){
+	border-radius:$radius;
+}
+
+.box{
+	width:20%;
+	height:50px;
+	background:#ff0000;
+	@include corner(20px);
+}
